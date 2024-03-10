@@ -731,10 +731,12 @@ footer {
 
 .footer-logo {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
-
+.footer-logo img {
+    width: 56px;
+    height: 50px;
+}
 .footer-logo-image {
     margin-top: 100px;
     display: flex;
