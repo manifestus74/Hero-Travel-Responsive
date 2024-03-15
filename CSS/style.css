@@ -283,11 +283,15 @@ height: 100%;
 
 .section1-btn {
    
-    display: inline-block;
+    display: flex;
+    width: 120px;
     background-color: #FF5400;
     padding: 18px 35px;
     border-radius: 8px;
     color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 50px;
 }
 
 /********  S E C T I O N 2 ********/
@@ -301,11 +305,13 @@ height: 100%;
 }
 
 .containers2-text-box {
-    width:55%;
+    width:100%;
     margin: auto;
     text-align: center;
     /*border: 1px solid grey;*/
     margin-bottom: 20px;
+    
+
 }
 
 .containers2-text-box h1 {
@@ -319,7 +325,7 @@ height: 100%;
     line-height: 1.7;
     color: rgba(19, 19, 24, 0.7);
     margin-bottom: 30px;
-    
+    padding: 0px 300px;
     
 }
 
@@ -450,9 +456,40 @@ height: 100%;
 
 
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
 
-.container-text p {
+.container-content-section1 {
+    margin: auto;
+    text-align: center;
+}
+
+.content-section1-left {
+    width: 100%;
+    margin: auto;
+}
+.content-section1-left h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.content-section1-left p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.content-section1-left ul {
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+}
+
+.section1-btn {
+    justify-content: center;
+    display: flex;
+
+}
+
+.containers2-text-box p {
 font-size: 16px;
 padding: 0;
 margin: 0;
@@ -463,10 +500,7 @@ margin: 0;
     font-size: 1vw;
 }
 
-.header-content-input {
-    
-    flex-direction: column;
-}
+
 
 .centered-Maldives {
     position: absolute;
@@ -648,7 +682,8 @@ margin: 0;
 }
 
 
-@media screen and (max-width: 1600px) {
+
+@media screen and (max-width: 3600px) {
 
     .navFlex i {
         display: none;
@@ -843,7 +878,7 @@ margin: 0;
     .container-image-middle {
         width: 90%;
         display: flex
-        margin: auto;
+       
 
     }
 
@@ -859,6 +894,48 @@ margin: 0;
     }
 
 
+
+    @media screen and (max-width: 670px) {
+       .header-content p {
+        padding: 0px 45px;
+       }
+
+       .container-text {
+        margin: 0;
+        padding: 0;
+        
+       }
+
+       .container-content-section2{
+        margin: 0;
+        justify-content: left;
+       }
+
+       .containers2-text-box h1 {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-size: 30px;
+        justify-content: left;
+        width: 600px;
+       }
+
+       .container-text p {
+        width: 600px;
+        
+       }
+
+       .containers3-text-box {}
+
+       .containers3-text-box h1 {
+        text-align: left;
+       }
+
+       .containers3-text-box p {
+        padding: 0;
+       }
+
+    
     @media screen and (max-width: 390px) {
         Header {
             width: 390px;
@@ -1370,6 +1447,7 @@ height: 100%;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 
 /* ********* section 6 ********* */
